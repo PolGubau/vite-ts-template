@@ -1,9 +1,10 @@
 {
-	"name": "@codelytv/vite-react_best_practices-template",
-	"author": "codelytv",
+	"name": "vite-ts-template",
+	"short_name": "Vite template",
+	"author": "Pol Gubau Amores",
 	"license": "MIT",
-	"private": true,
-	"version": "1.0.0",
+	"private": false,
+	"version": "0.0.1",
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
