@@ -5,10 +5,10 @@
       "dom",
       "dom.iterable",
       "esnext"
-    ],
+    ],    
+ 
     "baseUrl": "./",
-    "types": ["cypress"],
-    "allowJs": true,
+     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -20,7 +20,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["cypress","node", "jest", "@testing-library/jest-dom"],
+
   },
   "include": [
     "src",
